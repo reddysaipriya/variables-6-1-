@@ -1,0 +1,63 @@
+Variables:
+ 1.Static typed and Dynamic typed:
+ *variables are case sensitive, *Startwith letters, under_score and dollar sign 
+ *cant start with with numbers
+ reserved words(Keywords) not allowed
+HOW TO DECLARE VARIABLES:
+Var()
+let()
+const()
+Reassigning variables:
+  Reassigning with let and var is possible nd const not accepted
+  Redeclaring with let is not accepted
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //var a =5
+        //a=1
+        //document.write(a+a)
+        //console.log(a+a)
+
+        //let a=2
+        //a=a+a
+        //document.write(a)
+        //console.log(a+a)
+        // reassigning with let and var is possible but with const it is not possible
+
+        //let a=1
+        //let a=5
+        //document.write(a+a)
+        //console.log(a+a)
+
+        //var a=10
+        //var a=50
+        //document.write(a+a)
+        //console.log(a+a)
+        //redeclaring with var is possible ,with let nd const it is not possible
+
+        
+        //var b="Vidhu" 
+        //{
+            //var b="Srihan"
+            //document.write(b)
+          //  console.log(b)
+        //}
+        let b="Vidhu" 
+        {
+            let b="Srihan"
+            console.log(b)
+            document.write(b)
+        }
+        document.write(b)
+        
+    </script>
+</body>
+</html>
+Implemented in vscode
