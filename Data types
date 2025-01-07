@@ -1,0 +1,59 @@
+Data  types:
+  *Dynamic type Language
+  Two types:
+  1.Primitive data type  : Predifined, can store single values
+  2. Non-Primitive data type Objects and Arrays
+  To check the data type - typeOf
+  Primitive:
+  i) Numbers: integers,float
+  ii) String:Stream of characters enclosed in quotes
+      quotes(--single, double, backtick)
+  iii) Boolean :
+  iv) Null
+  v) undefined: declared variable with no value
+  vi) COnditional Statements
+  vii) Loops
+  
+  --Back ticks introduced in ES6 version
+  --it provides extra functionality.  Wecan insert the variables into them
+  
+  String concantenation :
+
+
+
+IN VS CODE :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    let x= null
+    // let b=3.5
+    //let a='-3.5'
+    //console.log(typeof(a))
+    //document.write(typeof(a))
+    //document.write(typeof(b))
+     
+    //Backticks
+    //let a=3.5
+    //let b='3.5'
+    //document.write(a+b, "<br>")
+    //console.log("hi+ a+b")
+    //document.write("hi + a+b", "<br>")
+    //console.log(`hi +${a+b}`)
+    //document.write(`hi+${a+b}`)
+
+    //let a="Srihan"
+    //let b="Sanvith"
+    //let age=8
+    //let greeting = `I am ${a+ " " +b}, my age  is ${age} years old`
+    //console.log(greeting)
+
+    
+  </script>
+</body>
+</html>
